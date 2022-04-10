@@ -1,0 +1,15 @@
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\obj\Debug\net6.0\CoveragePolygonService.Infraestructure.csproj.AssemblyReference.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\obj\Debug\net6.0\CoveragePolygonService.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\obj\Debug\net6.0\CoveragePolygonService.Infraestructure.AssemblyInfoInputs.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\obj\Debug\net6.0\CoveragePolygonService.Infraestructure.AssemblyInfo.cs
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\obj\Debug\net6.0\CoveragePolygonService.Infraestructure.csproj.CoreCompileInputs.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\bin\Debug\net6.0\CoveragePolygonService.Infraestructure.deps.json
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\bin\Debug\net6.0\CoveragePolygonService.Infraestructure.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\bin\Debug\net6.0\CoveragePolygonService.Infraestructure.pdb
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\bin\Debug\net6.0\CoveragePolygonService.Core.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\bin\Debug\net6.0\CoveragePolygonService.Core.pdb
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\obj\Debug\net6.0\CoveragePolygonService.Infraestructure.csproj.CopyComplete
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\obj\Debug\net6.0\CoveragePolygonService.Infraestructure.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\obj\Debug\net6.0\refint\CoveragePolygonService.Infraestructure.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\obj\Debug\net6.0\CoveragePolygonService.Infraestructure.pdb
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Infraestructure\CoveragePolygonService.Infraestructure\obj\Debug\net6.0\ref\CoveragePolygonService.Infraestructure.dll

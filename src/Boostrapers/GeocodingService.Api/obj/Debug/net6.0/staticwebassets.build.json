@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IX/vwlpXiryQg71BrqOhR1QLDIHJXETthTjtDRkFER4=",
+  "Source": "GeocodingService.Api",
+  "BasePath": "_content/GeocodingService.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

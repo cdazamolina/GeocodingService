@@ -1,0 +1,12 @@
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\obj\Debug\net6.0\CoveragePolygonService.Core.csproj.AssemblyReference.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\obj\Debug\net6.0\CoveragePolygonService.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\obj\Debug\net6.0\CoveragePolygonService.Core.AssemblyInfoInputs.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\obj\Debug\net6.0\CoveragePolygonService.Core.AssemblyInfo.cs
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\obj\Debug\net6.0\CoveragePolygonService.Core.csproj.CoreCompileInputs.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\bin\Debug\net6.0\CoveragePolygonService.Core.deps.json
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\bin\Debug\net6.0\CoveragePolygonService.Core.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\bin\Debug\net6.0\CoveragePolygonService.Core.pdb
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\obj\Debug\net6.0\CoveragePolygonService.Core.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\obj\Debug\net6.0\refint\CoveragePolygonService.Core.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\obj\Debug\net6.0\CoveragePolygonService.Core.pdb
+D:\Esp.Arq.Emp.Software\PICA\Envia\CoveragePolygonService\src\Core\CoveragePolygonService.Core\obj\Debug\net6.0\ref\CoveragePolygonService.Core.dll

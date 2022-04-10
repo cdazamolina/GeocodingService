@@ -1,0 +1,15 @@
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\obj\Debug\net6.0\GeocodingService.Infraestructure.csproj.AssemblyReference.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\obj\Debug\net6.0\GeocodingService.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\obj\Debug\net6.0\GeocodingService.Infraestructure.AssemblyInfoInputs.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\obj\Debug\net6.0\GeocodingService.Infraestructure.AssemblyInfo.cs
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\obj\Debug\net6.0\GeocodingService.Infraestructure.csproj.CoreCompileInputs.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\bin\Debug\net6.0\GeocodingService.Infraestructure.deps.json
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\bin\Debug\net6.0\GeocodingService.Infraestructure.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\bin\Debug\net6.0\GeocodingService.Infraestructure.pdb
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\bin\Debug\net6.0\GeocodingService.Core.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\bin\Debug\net6.0\GeocodingService.Core.pdb
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\obj\Debug\net6.0\GeocodingService.Infraestructure.csproj.CopyComplete
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\obj\Debug\net6.0\GeocodingService.Infraestructure.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\obj\Debug\net6.0\refint\GeocodingService.Infraestructure.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\obj\Debug\net6.0\GeocodingService.Infraestructure.pdb
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Infraestructure\GeocodingService.Infraestructure\obj\Debug\net6.0\ref\GeocodingService.Infraestructure.dll

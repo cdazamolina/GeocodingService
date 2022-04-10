@@ -1,0 +1,238 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Boostrapers\\CoveragePolygonService.Api\\CoveragePolygonService.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Boostrapers\\CoveragePolygonService.Api\\CoveragePolygonService.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Boostrapers\\CoveragePolygonService.Api\\CoveragePolygonService.Api.csproj",
+        "projectName": "CoveragePolygonService.Api",
+        "projectPath": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Boostrapers\\CoveragePolygonService.Api\\CoveragePolygonService.Api.csproj",
+        "packagesPath": "C:\\Users\\cdaza\\.nuget\\packages\\",
+        "outputPath": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Boostrapers\\CoveragePolygonService.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cdaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Core\\CoveragePolygonService.Core\\CoveragePolygonService.Core.csproj": {
+                "projectPath": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Core\\CoveragePolygonService.Core\\CoveragePolygonService.Core.csproj"
+              },
+              "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Infraestructure\\CoveragePolygonService.Infraestructure\\CoveragePolygonService.Infraestructure.csproj": {
+                "projectPath": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Infraestructure\\CoveragePolygonService.Infraestructure\\CoveragePolygonService.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Core\\CoveragePolygonService.Core\\CoveragePolygonService.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Core\\CoveragePolygonService.Core\\CoveragePolygonService.Core.csproj",
+        "projectName": "CoveragePolygonService.Core",
+        "projectPath": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Core\\CoveragePolygonService.Core\\CoveragePolygonService.Core.csproj",
+        "packagesPath": "C:\\Users\\cdaza\\.nuget\\packages\\",
+        "outputPath": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Core\\CoveragePolygonService.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cdaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Seq.Extensions.Logging": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Infraestructure\\CoveragePolygonService.Infraestructure\\CoveragePolygonService.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Infraestructure\\CoveragePolygonService.Infraestructure\\CoveragePolygonService.Infraestructure.csproj",
+        "projectName": "CoveragePolygonService.Infraestructure",
+        "projectPath": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Infraestructure\\CoveragePolygonService.Infraestructure\\CoveragePolygonService.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\cdaza\\.nuget\\packages\\",
+        "outputPath": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Infraestructure\\CoveragePolygonService.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\cdaza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Core\\CoveragePolygonService.Core\\CoveragePolygonService.Core.csproj": {
+                "projectPath": "D:\\Esp.Arq.Emp.Software\\PICA\\Envia\\GeocodingService\\src\\Core\\CoveragePolygonService.Core\\CoveragePolygonService.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[107.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

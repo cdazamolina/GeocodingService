@@ -1,0 +1,12 @@
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\bin\Debug\net6.0\GeocodingService.Core.deps.json
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\bin\Debug\net6.0\GeocodingService.Core.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\bin\Debug\net6.0\GeocodingService.Core.pdb
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\obj\Debug\net6.0\GeocodingService.Core.csproj.AssemblyReference.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\obj\Debug\net6.0\GeocodingService.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\obj\Debug\net6.0\GeocodingService.Core.AssemblyInfoInputs.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\obj\Debug\net6.0\GeocodingService.Core.AssemblyInfo.cs
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\obj\Debug\net6.0\GeocodingService.Core.csproj.CoreCompileInputs.cache
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\obj\Debug\net6.0\GeocodingService.Core.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\obj\Debug\net6.0\refint\GeocodingService.Core.dll
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\obj\Debug\net6.0\GeocodingService.Core.pdb
+D:\Esp.Arq.Emp.Software\PICA\Envia\GeocodingService\src\Core\GeocodingService.Core\obj\Debug\net6.0\ref\GeocodingService.Core.dll
