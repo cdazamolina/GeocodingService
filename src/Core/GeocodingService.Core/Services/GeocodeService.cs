@@ -1,5 +1,6 @@
 ﻿using GeocodingService.Core.DTO;
 using GeocodingService.Core.Interfaces;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,10 +12,12 @@ namespace GeocodingService.Core.Services
     public class GeocodeService : IGeocodeService
     {
         private readonly IGeocode _geocode;
+        private readonly ILogger<GeocodeService> _logger;
 
-        public GeocodeService(IGeocode geocode)
+        public GeocodeService(IGeocode geocode, ILogger<GeocodeService> logger)
         {
             _geocode = geocode ?? throw new ArgumentNullException(nameof(geocode));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         public Task<GeocodeInformation> GeocodeAddressWithOutFormat(string address) =>
@@ -25,6 +28,7 @@ namespace GeocodingService.Core.Services
             var geocode = await _geocode.GeocodeAddressWithOutFormat(address);
             if (geocode.Status != "OK")
             {
+                _logger.LogError($"Error locating address [{geocode.Status}].");
                 return null;
             }
 
