@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace GeocodingService.Core.Services
@@ -32,6 +33,7 @@ namespace GeocodingService.Core.Services
                 return null;
             }
 
+            _logger.LogInformation($"Position defined for address [{address}]: {JsonSerializer.Serialize(geocode.Geoposition)}");
             foreach (RouteCoverage routeCoverage in routeCoverages)
                 if (_geocode.IsPointInsidePolygon(routeCoverage.Positions, geocode.Geoposition))
                     return routeCoverage;

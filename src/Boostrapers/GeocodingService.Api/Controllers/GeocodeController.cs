@@ -1,6 +1,7 @@
 ﻿using GeocodingService.Core.Interfaces;
 using GeocodingService.Core.DTO;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace GeocodingService.Api.Controllers
 {
@@ -29,7 +30,7 @@ namespace GeocodingService.Api.Controllers
         public async Task<ActionResult<RouteCoverage>> GetRoute([FromQuery] string address,
             [FromBody] List<RouteCoverage> routeCoverages)
         {
-            _logger.LogInformation($"Searching route for address [{address}].");
+            _logger.LogInformation($"Searching route for address [{address}] for routes: {JsonSerializer.Serialize(routeCoverages)}.");
             var routeCoverage = await _geocodeService.GetRouteCoverageToAddress(routeCoverages, address);
             if (routeCoverage is null)
             {

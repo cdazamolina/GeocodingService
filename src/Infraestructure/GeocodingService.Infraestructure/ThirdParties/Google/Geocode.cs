@@ -35,22 +35,33 @@ namespace GeocodingService.Infraestructure.ThirdParties.Google
 
         public bool IsPointInsidePolygon(List<Core.DTO.Geoposition> polygon, Core.DTO.Geoposition point)
         {
-            int j = polygon.Count - 1;
-            for (int i = 0; i < polygon.Count; i++)
+            double minX = polygon[0].Latitude;
+            double maxX = polygon[0].Latitude;
+            double minY = polygon[0].Longitude;
+            double maxY = polygon[0].Longitude;
+            for (int i = 1; i < polygon.Count; i++)
             {
-                if (polygon[i].Latitude < point.Latitude &&
-                    polygon[j].Latitude >= point.Latitude ||
-                    polygon[j].Latitude < point.Latitude &&
-                    polygon[i].Latitude >= point.Latitude)
-                {
-                    if (polygon[i].Longitude + (point.Latitude - polygon[i].Latitude) / (polygon[j].Latitude - polygon[i].Latitude) * (polygon[j].Longitude - polygon[i].Longitude) < point.Longitude)
-                    {
-                        return false;
-                    }
-                }
-                j = i;
+                Core.DTO.Geoposition q = polygon[i];
+                minX = Math.Min(q.Latitude, minX);
+                maxX = Math.Max(q.Latitude, maxX);
+                minY = Math.Min(q.Longitude, minY);
+                maxY = Math.Max(q.Longitude, maxY);
             }
-            return true;
+            if (point.Latitude < minX || point.Latitude > maxX || point.Longitude < minY || point.Longitude > maxY)
+            {
+                return false;
+            }
+
+            bool inside = false;
+            for (int i = 0, j = polygon.Count - 1; i < polygon.Count; j = i++)
+            {
+                if ((polygon[i].Longitude > point.Longitude) != (polygon[j].Longitude > point.Longitude) &&
+                     point.Latitude < (polygon[j].Latitude - polygon[i].Latitude) * (point.Longitude - polygon[i].Longitude) / (polygon[j].Longitude - polygon[i].Longitude) + polygon[i].Latitude)
+                {
+                    inside = !inside;
+                }
+            }
+            return inside;
         }
     }
 }

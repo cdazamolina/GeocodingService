@@ -1,14 +1,14 @@
 using GeocodingService.Core;
 using GeocodingService.Infraestructure;
 
-var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy(name: MyAllowSpecificOrigins, policy =>{ policy.AllowAnyOrigin(); });
-});
 
-builder.Services.AddControllers();
+builder.Services.AddCors();
+
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.PropertyNamingPolicy = null;
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -17,10 +17,15 @@ builder.Services.AddCoreServices();
 builder.Services.AddInfraestructureServices();
 
 var app = builder.Build();
+app.UseCors(builder => builder
+     .WithOrigins("*")
+     .AllowAnyMethod()
+     .SetIsOriginAllowed((host) => true)
+     .AllowAnyHeader());
 app.UseSwagger();
 app.UseSwaggerUI();
 
 // app.UseHttpsRedirection();
-app.UseAuthorization();
+// app.UseAuthorization();
 app.MapControllers();
 app.Run();
