@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: geocoding-service
 spec:
+  replicas: 2
   selector:
     matchLabels:
       app: geocoding-service
@@ -12,7 +13,7 @@ spec:
         app: geocoding-service
     spec:
       containers:
-      - image: geocoding-service/grc.io:latest
+      - image: gcr.io/august-creek-346600/geocoding-service:latest
         name: app
         ports:
         - containerPort: 80
