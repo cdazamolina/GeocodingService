@@ -12,7 +12,7 @@ spec:
         app: geocoding-service
     spec:
       containers:
-      - image: geocoding-service:latest
+      - image: geocoding-service/grc.io:latest
         name: app
         ports:
         - containerPort: 80
