@@ -67,9 +67,8 @@ spec:
   selector:
     app: __serviceName__
   ports:
-    - port: __port__
-      targetPort: 8080
-      protocol: TCP
+  - name: http
+    port: 8080
 
 ---
 apiVersion: autoscaling/v2beta2
