@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: geocoding-service
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: geocoding-service
