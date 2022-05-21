@@ -12,11 +12,11 @@ name: Build and Deploy to GKE
 on:
   push:
     branches:
-      - master
+      - develop
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: envia-cluster-1    # Add your cluster name here.
+  GKE_CLUSTER: envia-dev-cluster-1    # Add your cluster name here.
   GKE_ZONE: us-central1   # Add your cluster zone here.
   DEPLOYMENT_NAME: geocoding-service # Add your deployment name here.
   IMAGE: geocoding-service

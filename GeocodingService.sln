@@ -8,6 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		deployment.yaml = deployment.yaml
 		Docker-Compose.yaml = Docker-Compose.yaml
 		Dockerfile = Dockerfile
+		kustomization.yaml = kustomization.yaml
 		README.md = README.md
 	EndProjectSection
 EndProject
