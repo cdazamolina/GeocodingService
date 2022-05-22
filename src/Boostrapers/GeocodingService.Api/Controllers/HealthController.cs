@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace GeocodingService.Api.Controllers
 {
     [ApiController]
+    [ApiExplorerSettings(IgnoreApi = true)]
     public class HealthController : ControllerBase
     {
         [HttpGet("/")]
