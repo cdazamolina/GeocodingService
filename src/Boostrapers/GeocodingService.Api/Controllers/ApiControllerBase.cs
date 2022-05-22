@@ -7,6 +7,7 @@ namespace GeocodingService.Api.Controllers
     [Route("api/[controller]")]
     public class ApiControllerBase : ControllerBase
     {
-
+        [HttpGet("/")]
+        public IActionResult Health() => Ok();
     }
 }
